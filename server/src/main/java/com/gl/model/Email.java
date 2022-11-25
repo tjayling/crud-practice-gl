@@ -13,10 +13,10 @@ public class Email {
     private String body;
 
     public void sendEmail() {
-        final String to = "thomas.ayling@ecs.co.uk";
-        final String from = "thomas.ayling@globallogic.com";
-        final String username = "347010b1796869";
-        final String password = "980af802439cbb";
+        final String to = "xxx@xxx.com";
+        final String from = "xxx@xxx.com";
+        final String username = "xxx";
+        final String password = "xxx";
         final String host = "smtp.mailtrap.io";
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
